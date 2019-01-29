@@ -11,23 +11,32 @@ You need the followings for your implementation:
 
 
 ---- Necessary library ------
+
 python-telegram-bot
 
 ---- How to use ----------------
+
 First, edit the token of your bot and your telegram ID in bot.py/BOTc.py
 
 
 Example for bot.py :
+
 python3 bot.py 'Hello, world'
 
 Example for BOTc.py :
+
 ~~~~~~~~~~~~~~( your_main_code.py )~~~~~~~~~~~~~
+
 ...
+
 from BOTc import BOTc
+
 myBot = BOTc()
+
 ...
 
 myBot.send('%d epoch : Train Accuracy : %.4f' %(iEpoch, acc_train) )
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
