@@ -18,6 +18,8 @@ python-telegram-bot
 
 First, edit the token of your bot and your telegram ID in bot.py/BOTc.py
 
+Start the BOT in the telegram. ( Find the Bot with the BOT ID and /start)
+
 
 Example for bot.py :
 
