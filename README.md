@@ -9,19 +9,18 @@ You need the followings for your implementation:
 
 2.Your telegram ID ( digits )
 
---------------------------------
--- necessary libraries --
-pip3 install python-telegram-bot
+
+---- Necessary library ------
+python-telegram-bot
+
+---- How to use ----------------
+First, edit the token of your bot and your telegram ID in bot.py/BOTc.py
 
 
-
-------------------------------
-How to Use.
-
-example#1 :
+Example for bot.py :
 python3 bot.py 'Hello, world'
 
-example#2 :
+Example for BOTc.py :
 ~~~~~~~~~~~~~~( your_main_code.py )~~~~~~~~~~~~~
 ...
 from BOTc import BOTc
